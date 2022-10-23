@@ -6,10 +6,11 @@ import Header from "./header";
 
 export default function Component() {
 
+    // window is not available during server-side rendering
+    const isBrowser = () => typeof window !== "undefined"
     // Set vh for css trick for phone devices
     // https://css-tricks.com/the-trick-to-viewport-units-on-mobile/
-    let vh = window.innerHeight * 0.01
-    document.documentElement.style.setProperty('--vh', `${vh}px`);
+    isBrowser() && document.documentElement.style.setProperty('--vh', `${window.innerHeight * 0.01}px`);
 
     return (
         <div id="wrapper">
