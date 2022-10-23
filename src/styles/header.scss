@@ -1,0 +1,25 @@
+#header {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 20px;
+  font-variation-settings: 'wght' 600;
+
+  span {
+    margin-top: 10px;
+    color: #DDD;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  .header-picture-wrapper {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 6px 13px -9px rgba(0, 0, 0, 1);
+
+    .header-picture {
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+}
