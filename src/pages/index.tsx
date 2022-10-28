@@ -26,4 +26,4 @@ export default function Component() {
     )
 }
 
-export const Head: HeadFC = () => <title>Tony 404 LinkTree</title>
+export const Head: HeadFC = () => <title>JTS</title>
