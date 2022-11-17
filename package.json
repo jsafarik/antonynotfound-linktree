@@ -22,13 +22,13 @@
     "gatsby-plugin-sass": "^5.24.0",
     "gatsby-plugin-sharp": "^4.24.0",
     "gatsby-source-filesystem": "^4.24.0",
-    "react": "^18.1.0",
+    "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sass": "^1.56.1"
   },
   "devDependencies": {
     "@types/node": "^18.11.9",
-    "@types/react": "^18.0.21",
+    "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.9",
     "typescript": "^4.8.3"
   }
